@@ -9,9 +9,9 @@ const routes = [
     component: HomePage,
   },
   {
-    path: '/other',
-    name: 'other',
-    component: () => import('@/views/OtherPage.vue'),
+    path: '/chooserooms',
+    name: 'chooserooms',
+    component: () => import('@/views/ChooseRoomsPage.vue'),
   },
   {
     path: '/:pathMatch(.*)*',
